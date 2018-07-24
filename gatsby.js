@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./react'].map(require.resolve),
+  extends: ['./react.js'],
   rules: {
     'react/no-danger': ['off'],
 

@@ -1,31 +1,28 @@
 {
   "name": "eslint-config-artycurate",
-  "description": "ESLint config with airbnb’s rules as base, prettier override, and optional config to play well with Gatsby development.",
+  "description": "ESLint config that extends Airbnb, Prettier as formatter, and optional config to play well with Gatsby and React development.",
   "version": "1.2.1",
   "author": "Ryandi Tjia <ryandi.tjia@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanditjia/eslint-config-artycurate.git"
+  },
   "main": "index.js",
   "dependencies": {
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-config-prettier": "^2.9.0"
-  },
-  "peerDependencies": {
     "babel-eslint": "^8.2.6",
-    "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^2.6.2",
-    "eslint-plugin-react": "^7.10.0",
-    "prettier": "^1.13.7"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^2.6.2",
-    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react": "^7.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1",
+    "prettier": "^1.13.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
     "prettier": "^1.13.7"
   },
   "scripts": {
