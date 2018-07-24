@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-artycurate",
   "description": "ESLint config with airbnb’s rules as base, prettier override, and additional rules to play well with Gatsby development.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Ryandi Tjia <ryandi.tjia@gmail.com>",
   "main": "index.js",
   "peerDependencies": {
