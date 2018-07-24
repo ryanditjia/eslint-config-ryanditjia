@@ -1,4 +1,5 @@
 module.exports = {
+  extends: ['./react'],
   rules: {
     'react/no-danger': ['off'],
 
