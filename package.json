@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-artycurate",
   "description": "ESLint config that extends Airbnb, Prettier as formatter, and optional config to play well with Gatsby and React development.",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "author": "Ryandi Tjia <ryandi.tjia@gmail.com>",
   "repository": {
     "type": "git",
