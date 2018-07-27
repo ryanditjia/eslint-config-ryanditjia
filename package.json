@@ -1,34 +1,7 @@
 {
   "name": "eslint-config-artycurate",
-  "description": "ESLint config that extends Airbnb, Prettier as formatter, and optional config to play well with Gatsby and React development.",
   "version": "1.4.0",
-  "author": "Ryandi Tjia <ryandi.tjia@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ryanditjia/eslint-config-artycurate.git"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^2.6.2",
-    "eslint-plugin-react": "^7.10.0"
-  },
-  "peerDependencies": {
-    "eslint": "^5.2.0",
-    "prettier": "^1.13.7"
-  },
-  "devDependencies": {
-    "eslint": "^5.2.0",
-    "prettier": "^1.13.7"
-  },
-  "scripts": {
-    "format": "prettier --write \"*.js\" \"src/**/*.js\"",
-    "lint": "eslint ./ --ext .js"
-  },
+  "description": "ESLint config that extends Airbnb, Prettier as formatter, and optional config to play well with Gatsby and React development.",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -38,5 +11,33 @@
     "react",
     "gatsby"
   ],
-  "license": "MIT"
+  "homepage": "https://github.com/ryanditjia/eslint-config-artycurate#readme",
+  "bugs": "https://github.com/ryanditjia/eslint-config-artycurate/issues",
+  "license": "MIT",
+  "author": "Ryandi Tjia <ryandi.tjia@gmail.com> (https://artycurate.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanditjia/eslint-config-artycurate.git"
+  },
+  "scripts": {
+    "format": "prettier --write \"*.js\" \"src/**/*.js\"",
+    "lint": "eslint ./ --ext .js"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "prettier": "^1.13.7"
+  },
+  "peerDependencies": {
+    "eslint": "^5.2.0",
+    "prettier": "^1.13.7"
+  }
 }
