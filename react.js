@@ -7,5 +7,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     ],
+    // Annoying. Support for this rule is deprecated anyway.
+    'jsx-a11y/label-has-for': ['off'],
   },
 }
