@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-artycurate",
+  "name": "eslint-config-ryanditjia",
   "version": "1.8.0",
   "description": "ESLint config that extends Airbnb, Prettier as formatter, and optional config to play well with Gatsby and React development.",
   "keywords": [
@@ -11,13 +11,13 @@
     "react",
     "gatsby"
   ],
-  "homepage": "https://github.com/ryanditjia/eslint-config-artycurate#readme",
-  "bugs": "https://github.com/ryanditjia/eslint-config-artycurate/issues",
+  "homepage": "https://github.com/ryanditjia/eslint-config-ryanditjia#readme",
+  "bugs": "https://github.com/ryanditjia/eslint-config-ryanditjia/issues",
   "license": "MIT",
-  "author": "Ryandi Tjia <ryandi.tjia@gmail.com> (https://artycurate.com)",
+  "author": "Ryandi Tjia <ryandi.tjia@me.com> (https://artycurate.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryanditjia/eslint-config-artycurate.git"
+    "url": "https://github.com/ryanditjia/eslint-config-ryanditjia.git"
   },
   "scripts": {
     "format": "prettier --write \"*.js\" \"src/**/*.js\"",
