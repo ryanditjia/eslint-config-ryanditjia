@@ -1,15 +1,13 @@
 {
   "name": "eslint-config-ryanditjia",
   "version": "2.3.0",
-  "description": "ESLint config that extends Airbnb, Prettier as formatter, and optional config to play well with Gatsby and React development.",
+  "description": "ESLint config heavily inspired by create-react-app, with addition of prettier",
   "keywords": [
     "eslint",
     "eslintconfig",
-    "airbnb",
     "prettier",
     "javascript",
-    "react",
-    "gatsby"
+    "react"
   ],
   "homepage": "https://github.com/ryanditjia/eslint-config-ryanditjia#readme",
   "bugs": "https://github.com/ryanditjia/eslint-config-ryanditjia/issues",
@@ -25,7 +23,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint-config-airbnb": "^17.1.0",
+    "confusing-browser-globals": "^1.0.5",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
@@ -35,7 +33,7 @@
   },
   "devDependencies": {
     "eslint": "^5.9.0",
-    "prettier": "^1.15.2"
+    "prettier": "^1.15.3"
   },
   "peerDependencies": {
     "eslint": "^5.7.0",

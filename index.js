@@ -1,17 +1,19 @@
 module.exports = {
-  root: true,
-  parser: 'babel-eslint',
   env: {
     browser: true,
+    commonjs: true,
+    es6: true,
+    jest: true,
+    node: true,
   },
-  extends: ['airbnb', 'plugin:prettier/recommended'],
-  rules: {
-    // experiment: overriding Airbnb’s error as warn
-    'no-unused-vars': [
-      'warn',
-      { vars: 'all', args: 'after-used', ignoreRestSiblings: true },
-    ],
-    // experiment: overriding Prettier’s error as warn
-    'prettier/prettier': 'warn',
+
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
+
+  extends: ['./base.js', './import.js', './react.js', './prettier.js'],
 }

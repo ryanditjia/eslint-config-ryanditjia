@@ -1,10 +1,9 @@
 # eslint-config-ryanditjia
 
-This config is three things:
+This config is two things:
 
-1.  Extends the strict [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
+1.  Heavily inspired by [eslint-config-react-app](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app).
 2.  Turns off the rules that have to do with formatting, leaving it to [Prettier](https://github.com/prettier/eslint-plugin-prettier) to handle.
-3.  Exposes optional React (`ryanditjia/react`), Gatsby (`ryanditjia/gatsby`), and Jest (`ryanditjia/jest`) configs.
 
 ## Install
 
@@ -18,12 +17,7 @@ Create a `.eslintrc.js` file at the root of your project and paste the following
 
 ```js
 module.exports = {
-  extends: [
-    'ryanditjia',
-    'ryanditjia/gatsby', // optional config for Gatsby development, extends ryanditjia/react by default
-    'ryanditjia/react', // optional config for React development, not needed if you are already extending ryanditjia/gatsby
-    'ryanditjia/jest', // optional config for Jest testing
-  ],
+  extends: ['ryanditjia'],
   rules: {
     // your custom rules here
   },
